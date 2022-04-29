@@ -60,7 +60,7 @@ Mongoose | JWT | Redux
                         <a href="https://bigbasket-clone.vercel.app/" target={"_blank"}>Live</a>
                     </div>
                     <div className="projlinks">
-                        <a href="http://bigbasket-clone.vercel.app/" target={"_blank"}>GitHub</a>
+                        <a href="https://github.com/Iqbal0786/Bigbasket_Clone" target={"_blank"}>GitHub</a>
                     </div>
                      </div>
                 </div>
