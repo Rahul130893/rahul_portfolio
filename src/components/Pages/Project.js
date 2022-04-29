@@ -1,0 +1,120 @@
+import React from 'react'
+import BottomAbout from '../BottomAbout'
+import {FaGithub} from 'react-icons/fa'
+import pharmeasy from "../images/pharmeasy.png.png"
+import bigbasekthero from "../images/bigbasket hero.jpeg"
+// import githubhero from "../images/Mini Github.png"
+import cricbuzz from "../images/Cricbuzz.png.png"
+// import grubhero from "../images/GrubHub Hero.png"
+
+function Project() {
+    return (
+        <div className="Project" id='projectDiv'>
+            <div className="head">
+                My Projects
+                <div className="projectsIntro">
+                    <div>Here are some of the projects that I have done</div>
+                </div>
+            </div>
+            <div className="container">
+            {/* <div className="projs">
+                    <div className="img">
+                        <img src={grubhero} alt="movies" />
+                    </div>
+                    <div className="title">
+                    Grubhub Clone
+                    </div>
+                    <div className="projinfo">
+                    A web application for ordering food online<br/>
+                    Tech Stack: HTML | CSS | JavaScript | React | Material Ui |
+localStorage | Nodejs | Expressjs | Mongodb| GoogleAuth |
+Mongoose | JWT | Redux
+                    </div>
+                     <div className='flex'>
+                     <div className="projlinks">
+                        <a href="https://grubhub-clone-project.vercel.app/" target={"_blank"}>Live</a>
+                    </div>
+                    <div className="projlinks">
+                        <a href="https://github.com/kajalG-97/GRUBHUB-CLONE-PROJECT" target={"_blank"}>GitHub</a>
+                    </div>
+                     </div>
+                </div> */}
+
+                {/* project one */}
+              
+                 {/* project two */}
+                 <div className="projs">
+                    <div className="img">
+                        <img src={bigbasekthero} alt="movies" />
+                    </div>
+                    <div className="title">
+                       BigBasket Clone
+                    </div>
+                    <div className="projinfo">
+                    A web application to buy groceries online in India.<br/>
+                    <br/>
+                    Tech Stack: HTML | CSS | Javascript | DOM | LocalStorage 
+                    </div>
+                     <div className='flex'>
+                     <div className="projlinks">
+                        <a href="https://bigbasket-clone.vercel.app/" target={"_blank"}>Live</a>
+                    </div>
+                    <div className="projlinks">
+                        <a href="http://bigbasket-clone.vercel.app/" target={"_blank"}>GitHub</a>
+                    </div>
+                     </div>
+                </div>
+
+                 {/* project three */}
+                 <div className="projs">
+                    <div className="img pharm">
+                        <img src={pharmeasy}autoCapitalize alt="movies" />
+                    </div>
+                    <div className="title">
+                       PharmEasy Clone
+                    </div>
+                    <div className="projinfo">
+                    Pharmeasy is an Indian healthcare app and ecommerce platform.<br/>
+                    Tech Stack: HTML | CSS | Javascript | DOM | LocalStorage | MongoDb | Express | Mongoose | NPM | Heroku |  etc.
+                    </div>
+                     <div className='flex'>
+                     <div className="projlinks">
+                        <a href="https://pharmeasy-clone.netlify.app/" target={"_blank"}>Live</a>
+                    </div>
+                    <div className="projlinks">
+                        <a href="https://github.com/bharathk07/PHARMEASY-CLONE" target={"_blank"}>GitHub</a>
+                    </div>
+                     </div>
+                </div>
+                 {/* project four */}
+                 <div className="projs">
+                    <div className="img">
+                        <img src={cricbuzz} alt="movies" />
+                    </div>
+                    <div className="title">
+                       CricBuzz Clone
+                    </div>
+                    <div className="projinfo">
+                    A web application for getting live cricket scores and news related to cricket.<br/>
+                    Tech Stack: HTML | CSS | Javascript | DOM | Weather API
+                    </div>
+                     <div className='flex'>
+                     <div className="projlinks">
+                        <a href="https://cric-buzz.vercel.app/" target={"_blank"}>Live</a>
+                    </div>
+                    <div className="projlinks">
+                        <a href="https://github.com/Rahul130893/CricBuzz" target={"_blank"}>GitHub</a>
+                    </div>
+                     </div>
+                </div>
+                </div>
+            <div className="moreprojs">
+                <div>For more You can view my github</div>
+                <div><a href="https://github.com/Rahul130893/" target={"_blank"}><FaGithub /> Github</a></div>
+            </div>
+            <BottomAbout/>
+        </div>
+    )
+}
+
+export default Project
