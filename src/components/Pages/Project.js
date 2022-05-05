@@ -17,32 +17,9 @@ function Project() {
                 </div>
             </div>
             <div className="container">
-            {/* <div className="projs">
-                    <div className="img">
-                        <img src={grubhero} alt="movies" />
-                    </div>
-                    <div className="title">
-                    Grubhub Clone
-                    </div>
-                    <div className="projinfo">
-                    A web application for ordering food online<br/>
-                    Tech Stack: HTML | CSS | JavaScript | React | Material Ui |
-localStorage | Nodejs | Expressjs | Mongodb| GoogleAuth |
-Mongoose | JWT | Redux
-                    </div>
-                     <div className='flex'>
-                     <div className="projlinks">
-                        <a href="https://grubhub-clone-project.vercel.app/" target={"_blank"}>Live</a>
-                    </div>
-                    <div className="projlinks">
-                        <a href="https://github.com/kajalG-97/GRUBHUB-CLONE-PROJECT" target={"_blank"}>GitHub</a>
-                    </div>
-                     </div>
-                </div> */}
+  
 
-                {/* project one */}
-              
-                 {/* project two */}
+               
                  <div className="projs">
                     <div className="img">
                         <img src={bigbasekthero} alt="movies" />

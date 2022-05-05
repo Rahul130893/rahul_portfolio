@@ -22,6 +22,7 @@ function Nav() {
       <div className={click ? 'menu active' : 'menu'}>
         <ul className="navvs">
           <li onClick={closeMobileMenu}><a href="#aboutDiv"> About</a></li>
+          <li onClick={closeMobileMenu}><a href="#techStack">Skills</a> </li>
           <li onClick={closeMobileMenu}><a href="#projectDiv">Projects</a> </li>
 
           <li onClick={closeMobileMenu}> <a href="#bottom">Contact</a> </li>
@@ -66,15 +67,7 @@ function Nav() {
                 <FaLinkedin />
               </a>
             </li>
-            {/* <li onClick={closeMobileMenu}>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://twitter.com/a0x001"
-              >
-                <FaTwitterSquare />
-              </a>
-            </li> */}
+          
           </ul>
         </div>
       </div>

@@ -17,7 +17,7 @@ import materialUI from "../images/material-ui.svg"
 
 function Techs() {
   return (
-    <div className="Tech">
+    <div className="Tech" id="techStack">
       <div className="techstacks">
         <div className="intro">
           Tech Stacks and Tools that I've been working with
