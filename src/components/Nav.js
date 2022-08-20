@@ -16,19 +16,34 @@ function Nav() {
 
   return (
     <div className="navbar">
-      <Link to='/'>
-      <div className="logo">{'<Rahul/>'}</div>
+      <Link to="/">
+        <div className="logo">{"<Rahul/>"}</div>
       </Link>
-      <div className={click ? 'menu active' : 'menu'}>
+      <div className={click ? "menu active" : "menu"}>
         <ul className="navvs">
-          <li onClick={closeMobileMenu}><a href="#aboutDiv"> About</a></li>
-          <li onClick={closeMobileMenu}><a href="#techStack">Skills</a> </li>
-          <li onClick={closeMobileMenu}><a href="#projectDiv">Projects</a> </li>
+          <li onClick={closeMobileMenu}>
+            <a href="#aboutDiv"> About</a>
+          </li>
+          <li onClick={closeMobileMenu}>
+            <a href="#techStack">Skills</a>{" "}
+          </li>
+          <li onClick={closeMobileMenu}>
+            <a href="#projectDiv">Projects</a>{" "}
+          </li>
 
-          <li onClick={closeMobileMenu}> <a href="#bottom">Contact</a> </li>
+          <li onClick={closeMobileMenu}>
+            {" "}
+            <a href="#bottom">Contact</a>{" "}
+          </li>
 
           <li className="navvs" onClick={closeMobileMenu}>
-            <a target="_blank" rel="noreferrer" href={"https://drive.google.com/file/d/1MvbMPI1hyIIasbDpngjUoiPfMWdD4u_S/view?usp=sharing"}>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href={
+                "https://drive.google.com/file/d/1GHeQWHMJuHvIsQZSc3RzaKCoRWRTPofy/view?usp=sharing"
+              }
+            >
               Resume
             </a>
           </li>
@@ -41,12 +56,13 @@ function Nav() {
               </Link> */}
             </li>
             <li onClick={closeMobileMenu}>
-              <a title='rahulrdx1308@gmail.com'
+              <a
+                title="rahulrdx1308@gmail.com"
                 target="_blank"
                 rel="noreferrer"
                 href="mailto:rahulrdx1308@gmail.com"
               >
-                <FaEnvelope />{' '}
+                <FaEnvelope />{" "}
               </a>
             </li>
             <li onClick={closeMobileMenu}>
@@ -67,7 +83,6 @@ function Nav() {
                 <FaLinkedin />
               </a>
             </li>
-          
           </ul>
         </div>
       </div>
