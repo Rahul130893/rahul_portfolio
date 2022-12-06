@@ -15,27 +15,28 @@ function About() {
             <div>A Full Stack MERN Developer</div>
           </div>
           <div className="details">
-            I am currently learning Full Stack Web development at Masai School.
-            I'm passionate about programming and everything technology and have
-            endeavored to be upto date with the current technologies and skills.
+            A highly dedicated and passionate full-stack web developer with
+            excellent administrative and communication skills and the ability to
+            write efficient code. Looking forward to an exciting opportunity in
+            a challenging role as a full-stack developer
           </div>
           <div className="more">
-            I have expertise in HTML, CSS, and JavaScript. Additionally, I have
-            experience and considerable knowledge about ES6, Express, Node, NPM,
-            MongoDB, Mongoose, React and Git.
+           
           </div>
-          <br/>
+          <br />
           <div className="more">
             <div className="headtext">Education</div>
             <div className="details edu">
-              <p>Full Stack Web Developer</p>
-              <p>Masai School, Bengaluru</p>
-              <p>Sept 2021 - Present</p>
+              <div className="backEdu">
+                <p>Full Stack Web Developer</p>
+                <p>Masai School, Bengaluru</p>
+                <p>Sept 2021 - Present</p>
+              </div>
             </div>
-            
+
             <div className="details edu">
               <p>BE Mechanical Engineering</p>
-              <p>Acharya Institutes of Technology, Bengaluru</p>
+              <p>Acharya Institute of Technology, Bengaluru</p>
               <p>Aug 2013 - 2017</p>
             </div>
           </div>

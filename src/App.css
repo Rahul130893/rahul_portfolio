@@ -88,7 +88,7 @@ li, .logo{
   width: 50%;
   object-fit: contain;
 }
-.intro .text, .intro2 .text, .Bottom .free .txthead, .techstacks .intro, .aboutmeintro, .contsmes{
+.intro .text, .intro2 .text, .Bottom .free .txthead, .techstacks .intro, .aboutmeintro, .contsmes, .head{
   font-family: 'Lobster Two', cursive;
   font-size: 4rem;
   color: #fff;
@@ -165,6 +165,7 @@ li, .logo{
   display: flex;
   justify-content: center;
   /* align-items: center; */
+  border: 1px soliod white;
 }
 .techstacks .intro{
   margin-bottom: 1rem;
@@ -174,6 +175,7 @@ li, .logo{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 30px;
+  
   
 }
 .techstacks .techs .row div{
@@ -383,6 +385,11 @@ form button{
   width: 400px;
   height: 300px;
 }
+/* .head{
+  
+  font-size: 3rem;
+  font-family: 'Lobster Two', cursive;
+} */
 
 
 
@@ -441,9 +448,14 @@ form button{
     display: block;
     margin: 5vh 1vh;
   }
+  .imageme{
+    align-items: center;
+    text-align: center;
+  }
   
   .imageme >img{
-    width: 100%;
+    width: 90%;
+    text-align: center;
 
     border-radius: 8px;
   }
@@ -453,6 +465,8 @@ form button{
   }
   .abouttext .techstacks .techs{
     width: 100%;
+    align-items: center;
+    text-align: center;
   }
   .button{
     padding: 0.7rem;
@@ -471,9 +485,25 @@ form button{
     grid-template-columns: repeat(1,1fr);
     /* align-content: space-around; */
     /* justify-content: center; */
-    margin-left: 15px;
+    text-align: center;
+    align-items: center;
+    margin-left: 25px;
+    margin: auto;
   }
- 
+  
+  .techImg{
+   
+    margin: auto;
+  }
+  .techstacks{
+     width: 90%;
+     text-align: center;
+    
+  }
+  .intro{
+    
+     margin: auto;
+  }
   
 }
 
@@ -482,6 +512,8 @@ form button{
   width: 150px;
   height: 150px;
   padding: 5px;
+  
+
   margin-bottom: 40px;
   border-radius: 20px;
   background-color: white;
@@ -506,13 +538,24 @@ form button{
   display: flex;
 }
 .edu{
-  font-family: sans-serif;
-  width:35%;
+  /* font-family: sans-serif; */
+  /* width:35%; */
   
   line-height: 10px;
+}
+
+.backEdu{
+ 
+  width: 100%;
 }
 
 .edu>p:nth-child(1){
   font-size: 20px;
   line-height: 25px;
+}
+
+.details{
+  
+  line-height: 20px;
+ 
 }

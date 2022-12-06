@@ -11,6 +11,8 @@ import kindmeal from "../images/kindmeal_image.png"
 function Project() {
     return (
       <div className="Project" id="projectDiv">
+        <br></br>
+        <br></br>
         <div className="head">
           My Projects
           <div className="projectsIntro">
@@ -88,7 +90,7 @@ function Project() {
               A web application for getting live cricket scores and news related
               to cricket.
               <br />
-              Tech Stack: HTML | CSS | Javascript | DOM | Weather API
+              Tech Stack: HTML | CSS | Javascript | DOM 
             </div>
             <div className="flex">
               <div className="projlinks">

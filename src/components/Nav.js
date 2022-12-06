@@ -41,7 +41,7 @@ function Nav() {
               target="_blank"
               rel="noreferrer"
               href={
-                "https://drive.google.com/file/d/15TI1CgXf4qXYyg4PHMf4mCcAKd6qyoBb/view?usp=sharing"
+                "https://drive.google.com/file/d/1T7TOL8vpd92X-qA_1tXwvttvBqgY34ep/view?usp=sharing"
               }
             >
               Resume
